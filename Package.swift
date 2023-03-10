@@ -21,7 +21,7 @@ let package = Package(
     dependencies: [
         .package(url: "https://github.com/Alamofire/Alamofire.git", .upToNextMajor(from: "5.6.1")),
         .package(url: "https://github.com/kishikawakatsumi/KeychainAccess.git", from: "3.0.0"),
-        .package(url: "https://github.com/bytehypesrl/BHLogging.git", from: "1.0.0")
+        .package(url: "https://github.com/oaneageorge1/c.git", branch: "main")
     ],
     targets: [
         .target(
